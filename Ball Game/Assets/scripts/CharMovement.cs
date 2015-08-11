@@ -13,7 +13,7 @@ public class CharMovement : MonoBehaviour
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
 		Vector2 movement = new Vector2 (moveHorizontal, moveVertical);
-
+		grounded = GetComponent<Rigidbody2D>().velocity.y == 0;
 
 
 		if(grounded)
@@ -37,13 +37,14 @@ public class CharMovement : MonoBehaviour
 
 
 
-	void onCollisionEnter()
+	void OnCollisionEnter()
 	{
 		grounded = true;
 	}
 
-	void onCollisionExit()
+	void OnCollisionExit()
 	{
+	//	print ("got here mothfu");
 		grounded = false;
 	}
 
