@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 14034fdd4b04bb34886f3e5563de61b6
-timeCreated: 1439387628
+guid: b2a329673abce7a4584ce105e535a9d6
+timeCreated: 1439402162
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: track_Swing
+    4300000: ramp_Straight
     6400000: //RootNode
   materials:
     importMaterials: 1
